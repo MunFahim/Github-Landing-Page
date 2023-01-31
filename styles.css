@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    background-image: url(images/git_image3.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    font-size:16px;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color:rgb(26, 26, 26);
+    justify-content: space-around;
+
+}
+.logo{
+    
+    align-self: center;
+    border-radius: 24px;
+    margin-left: 15px;
+    height: 35px;
+    width: auto;
+}
+.con_one{
+    display: flex;
+    flex: 1;
+    gap: 20px;
+    align-self: center;
+}
+.con_two{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    padding: 16px 20px; 
+    gap: 15px;
+}
+.search-input{
+    background-color: rgba(65, 65, 65, 0.556);
+    border-radius: 8px;
+    border: none;
+    width: 220px;
+    color: white;
+    font-size: 14px;
+}
+.signIn-btn,
+.sign-button{
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+}
+.signIn-btn{
+    border: none;
+}
+
+/* second half */
+
+.des{
+    display: flex;
+    /*background-color: rgb(26, 26, 26);*/
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+}
+.content-box{
+    flex: 0.5;
+    text-align: center;
+    margin-right: 50px;
+    font-size: 30px;
+    
+}
+.git-title{
+    color:rgb(255, 141, 141);
+}
+.git-text{
+    color: rgb(211, 246, 255);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.git-image{
+    display: flex;
+    align-items: center;
+    
+}
+.image{
+    border-radius: 4px;
+    height: 300px;
+    width: auto;
+    box-shadow: 0px 0px 20px rgb(212, 203, 203);
+}
+
+/* third half */
+.rowing{
+    margin-bottom: 20px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    background-color:rgba(26, 26, 26, 0.63);
+    color: rgb(237, 192, 255);
+}
+
+.easy,
+.effec,
+.engag{
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.easy p,
+.effec p,
+.engag p{
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(216, 255, 189);
+}
+
+
+/* bottom */
+.bot{
+    text-align: center;
+    padding: 40px 30%;
+    font-size: 30px;
+    color: white;
+}
+.author{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+/* footer */
+.footer{
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    margin: 0;
+    color: white;
+    background-color: rgb(26, 26, 26);
+}
